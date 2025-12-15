@@ -16,7 +16,7 @@ limitations under the License.
 
 package pricing
 
-// generated at 2025-12-08T13:25:46Z for us-east-1
+// generated at 2025-12-15T13:22:17Z for us-east-1
 
 import ec2types "github.com/aws/aws-sdk-go-v2/service/ec2/types"
 
@@ -110,6 +110,10 @@ var InitialOnDemandPricesAWS = map[string]map[ec2types.InstanceType]float64{
 		"c8g.12xlarge": 1.914240, "c8g.16xlarge": 2.552320, "c8g.24xlarge": 3.828480, "c8g.2xlarge": 0.319040,
 		"c8g.48xlarge": 7.656960, "c8g.4xlarge": 0.638080, "c8g.8xlarge": 1.276160, "c8g.large": 0.079760,
 		"c8g.medium": 0.039880, "c8g.metal-24xl": 4.211330, "c8g.metal-48xl": 7.656960, "c8g.xlarge": 0.159520,
+		// c8gb family
+		"c8gb.12xlarge": 2.844000, "c8gb.16xlarge": 3.792000, "c8gb.24xlarge": 5.688000, "c8gb.2xlarge": 0.474000,
+		"c8gb.4xlarge": 0.948000, "c8gb.8xlarge": 1.896000, "c8gb.large": 0.118500, "c8gb.medium": 0.059250,
+		"c8gb.metal-24xl": 6.029280, "c8gb.xlarge": 0.237000,
 		// c8gd family
 		"c8gd.12xlarge": 2.351520, "c8gd.16xlarge": 3.135360, "c8gd.24xlarge": 4.703040, "c8gd.2xlarge": 0.391920,
 		"c8gd.48xlarge": 9.406080, "c8gd.4xlarge": 0.783840, "c8gd.8xlarge": 1.567680, "c8gd.large": 0.097980,
